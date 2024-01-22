@@ -1,4 +1,6 @@
+from components import room
 from nicegui import ui
 
-ui.label("Hey sup?")
+room.content()
+
 ui.run(native=True, port=8788)
