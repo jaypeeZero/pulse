@@ -5,7 +5,6 @@ from nicegui import ui
 
 def content(room) -> None:
     people = io.get_people_in_room(f'{io.get_data_directory()}\{room.name}') 
-    print(type(people))
 
     with ui.card():
         ui.label(room.name)
