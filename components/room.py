@@ -7,7 +7,7 @@ from nicegui import ui
 
 def content(room) -> None:
     """Display the contents of a room"""
-    people = io.get_people_in_room(f'{settings.get_data_folder()}\{room.name}') 
+    people = io.get_people_in_room(f'{settings.get_data_folder()}\\{room.name}') 
 
     with ui.card():
         ui.label(room.name)
