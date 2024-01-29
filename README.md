@@ -15,3 +15,4 @@
 # Dependencies
 - nativegui
 - pywebview
+- pydispatcher
