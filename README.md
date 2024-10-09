@@ -11,6 +11,6 @@ A typical workflow would involve:
 This workflow allows you to keep your actual meetings behind tools your security teams already control, while getting the benefit of "virtual presence" or in other terms, it allows you to keep track of how your team is working throughout a day.  All the benefits of being in an office, with none of the downsides.
 
 # Dependencies
-- nativegui
+- nicegui
 - pywebview
 - pydispatcher
